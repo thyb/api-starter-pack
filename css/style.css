@@ -768,10 +768,15 @@ section.sides {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    /*max-width: 400px;*/
     min-height: 470px;
     background-color: #fff;
     border-radius: 6px;
+}
+
+#portfolio .portfolio-item.bonus .portfolio-link {
+    max-width: auto;
+    min-height: 450px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
